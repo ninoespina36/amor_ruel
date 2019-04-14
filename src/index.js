@@ -5,6 +5,7 @@ import { BrowserRouter,Route,Link } from 'react-router-dom';
 
 //Components
 import About from './components/about';
+import Details from './components/details';
 import Party from './components/party';
 
 import './css/custom.css';
@@ -24,19 +25,20 @@ const App = () => {
 
 			<div className="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul className="navbar-nav">
-				  <li><Link to="/amor_ruel">About</Link></li>
-				  <li><Link to="/amor_ruel/details">Details</Link></li>
-				  <li><Link to="/amor_ruel/program">Timeline</Link></li>
-				  <li><Link to="/amor_ruel/party">Wedding Party</Link></li>
-				  <li><Link to="/amor_ruel/attire" className="last-item">Dress Code</Link></li>
+				  <li><Link to="/">About</Link></li>
+				  <li><Link to="/details">Details</Link></li>
+				  <li><Link to="/program">Timeline</Link></li>
+				  <li><Link to="/party">Wedding Party</Link></li>
+				  <li><Link to="/attire" className="last-item">Dress Code</Link></li>
 				</ul>			
 			</div>
 		</nav>
 
 		<div className="wrapper">
 			<div className="container">
-				<Route path="/amor_ruel" exact component={About}></Route>
-				<Route path="/amor_ruel/party" component={Party}></Route>
+				<Route path="/" exact component={About}></Route>
+				<Route path="/details" component={Details}></Route>
+				<Route path="/party" component={Party}></Route>
 			</div>
 		</div>
 

@@ -147,6 +147,21 @@ const Party = () =>{
 								<div className="line">-</div>
 								<div className="col">Mrs. Erlinda Rule</div>
 							</div>
+							<div className="row mb-1">
+								<div className="col">Engr. Rodrigo Labunog</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Lilia Labunog</div>
+							</div>
+							<div className="row mb-1">
+								<div className="col">Mr. Paul M. Espina</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Annabelle B. Espina</div>
+							</div>
+							<div className="row mb-1">
+								<div className="col">Mr. Constancio Rule</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Carmelina Rule</div>
+							</div>
 						</div>
 					</div>
 
@@ -161,9 +176,9 @@ const Party = () =>{
 								<div className="col">CANDLE</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Rodrigo Ybanez</div>
+								<div className="col">Mr. Panfilo Medalla</div>
 								<div className="line">-</div>
-								<div className="col">Mrs. Cherilona Ybanez</div>
+								<div className="col">Mrs. Meraluna Medalla</div>
 							</div>
 
 							<div className="row mb-1 mt-3">
@@ -195,7 +210,7 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Mr. Glenn Bert Ejera</div>
+								<div className="col">Glenn Bert Ejera</div>
 							</div>
 						</div>
 					</div>
@@ -207,7 +222,7 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Ms. Geraldine Espina</div>
+								<div className="col">Geraldine Espina</div>
 							</div>
 						</div>
 					</div>
@@ -222,44 +237,44 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Mr. Christian Howell Szolcsanyi</div>
+								<div className="col">Christian Howell Szolcsanyi</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Lindy Claire Renegado</div>
+								<div className="col">Lindy Claire Renegado</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Arnold Angelo Ruiz</div>
+								<div className="col">Arnold Angelo Ruiz</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Angelique Kaye Paredes</div>
+								<div className="col">Angelique Kaye Paredes</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Michael Josue Sarmiento</div>
+								<div className="col">Michael Josue Sarmiento</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Gretel Tuyac</div>
+								<div className="col">Gretel Tuyac</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Edzel Lumactud</div>
+								<div className="col">Edzel Lumactud</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Donna June Rara</div>
+								<div className="col">Donna June Rara</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Nino Christopher Espina</div>
+								<div className="col">Nino Christopher Espina</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Angelie Gae Pilayre</div>
+								<div className="col">Angelie Gae Pilayre</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Ed Briana Babor</div>
+								<div className="col">Ed Briana Babor</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Madel Beldad</div>
+								<div className="col">Madel Beldad</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Kim Lloyd Doterte</div>
+								<div className="col">Kim Lloyd Doterte</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Nece Grace Marimon</div>
+								<div className="col">Nece Grace Marimon</div>
 							</div>
 							<div className="row mb-5">
-								<div className="col">Mr. Cyril James Ybanez</div>
+								<div className="col">Cyril James Ybanez</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Arjellae Bolotaolo</div>
+								<div className="col">Arjellae Bolotaolo</div>
 							</div>
 						</div>
 					</div>
@@ -274,34 +289,34 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Mr. Samuel Espina Jr.</div>
+								<div className="col">Samuel Espina Jr.</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Kianna Francis Roferos</div>
+								<div className="col">Kianna Francis Roferos</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Kyanniel Vincent Roferos</div>
+								<div className="col">Kyanniel Vincent Roferos</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Sheena Angelu Renegado</div>
+								<div className="col">Sheena Angelu Renegado</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. John Amiel Tatad</div>
+								<div className="col">John Amiel Tatad</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Althea Rhyll Renegado</div>
+								<div className="col">Althea Rhyll Renegado</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Nino Rey Tupas</div>
+								<div className="col">Nino Rey Tupas</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Prixie Myrr Medalla</div>
+								<div className="col">Prixie Myrr Medalla</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Aldous Rey Espina</div>
+								<div className="col">Aldous Rey Espina</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Precious Ejera</div>
+								<div className="col">Precious Ejera</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Kenneth Ejera</div>
+								<div className="col">Kenneth Ejera</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Shannon Christi Araneta</div>
+								<div className="col">Shannon Christi Araneta</div>
 							</div>
 						</div>
 					</div>
@@ -313,9 +328,9 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Mr. Mc Eddie Babor</div>
+								<div className="col">Mc Eddie Babor</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Devona Matildo</div>
+								<div className="col">Devona Matildo</div>
 							</div>
 						</div>
 					</div>
@@ -326,7 +341,7 @@ const Party = () =>{
 								<div className="col">THE GROOM</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Ruel De Gracia Rule</div>
+								<div className="col">Ruel De Gracia Rule</div>
 							</div>
 						</div>
 					</div>
@@ -341,21 +356,21 @@ const Party = () =>{
 								<div className="col">RING</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. Kyle Matthew Roferos</div>
+								<div className="col">Kyle Matthew Roferos</div>
 							</div>
 
 							<div className="row mb-1 mt-3">
 								<div className="col">COIN</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. John Timothy Ejera</div>
+								<div className="col">John Timothy Ejera</div>
 							</div>
 
 							<div className="row mb-1 mt-3">
 								<div className="col">BIBLE</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mr. John Michael Luayon</div>
+								<div className="col">John Michael Luayon</div>
 							</div>
 						</div>
 					</div>
@@ -367,19 +382,19 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Ms. Princess Ageinah Dawn Garan</div>
+								<div className="col">Princess Ageinah Dawn Garan</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Ms. Ana Margarette Ejera</div>
+								<div className="col">Ana Margarette Ejera</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Ms. Athena Mheryl Renegado</div>
+								<div className="col">Athena Mheryl Renegado</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Ms. Fevie Ejera</div>
+								<div className="col">Fevie Ejera</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Ms. Mia Vellah Abucayan</div>
+								<div className="col">Mia Vellah Abucayan</div>
 							</div>
 						</div>
 					</div>
@@ -391,9 +406,9 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Mr. Zadie Faye Rule-Licayan</div>
+								<div className="col">Zadie Faye Rule-Licayan</div>
 								<div className="line">-</div>
-								<div className="col">Ms. Arlene Rule</div>
+								<div className="col">Arlene Rule</div>
 							</div>
 						</div>
 					</div>
@@ -404,7 +419,7 @@ const Party = () =>{
 								<div className="col">THE BRIDE</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Ms. Amor Rosario Espina</div>
+								<div className="col">Amor Rosario Tatad Espina</div>
 							</div>
 						</div>
 					</div>
@@ -430,7 +445,7 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Ms. Ma. Eda Jumawan</div>
+								<div className="col">Ma. Eda Jumawan</div>
 							</div>
 						</div>
 					</div>
@@ -442,7 +457,7 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Ms. Mary Grace Ingles</div>
+								<div className="col">Mary Grace Ingles</div>
 							</div>
 						</div>
 					</div>
@@ -454,7 +469,7 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Mrs. Lourdes Tupas</div>
+								<div className="col">Lourdes Tupas</div>
 							</div>
 						</div>
 					</div>
@@ -466,19 +481,7 @@ const Party = () =>{
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Ms. Celyn Rule</div>
-							</div>
-						</div>
-					</div>
-
-					<div className="row justify-content-md-center mt-5">
-						<div className="col-lg-7">
-							<div className="row mb-1 name-title">
-								<div className="col">MASS COMMENTATOR</div>
-							</div>
-
-							<div className="row mb-1">
-								<div className="col">Ms. Angel</div>
+								<div className="col">Celyn Rule</div>
 							</div>
 						</div>
 					</div>
@@ -515,7 +518,7 @@ const Party = () =>{
 							<div className="row mb-1">
 								<div className="col">Mr. Ruel Barril</div>
 							</div>
-							<div className="row mb-1 mt-3">
+							<div className="row mb-1">
 								<div className="col">Mrs. Jonel Barril</div>
 							</div>
 							<div className="row mb-1 mt-3">

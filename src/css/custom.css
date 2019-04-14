@@ -113,6 +113,18 @@ li a:hover {
 	color: #72ffc9;
 }
 
+.vertical-line{
+	height: 55px;
+	border-left: 2px solid #72ffc9;
+}
+
+.map{
+	border: 3px solid #72ffc9;
+	width: 50%;
+	height: 250px;
+	box-shadow: 5px 5px 5px #000;
+}
+
 
 @media only screen and (max-width: 1200px) {
 
@@ -171,10 +183,22 @@ li a:hover {
 		font-size: 5.5pt;
 	}
 
+	.details{
+		font-size: 9pt;
+	}
+
+	.vertical-line{
+		height: 40px;
+	}
+
 	.line{
 		width: 4px;
 		font-family: 'Great Vibes', cursive;
 	}
 
+	.map{
+		width: 90%;
+		height: 250px;
+	}
 }
 
