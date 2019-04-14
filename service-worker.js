@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/amor_ruel/precache-manifest.1dc4b4267d8b24eeac5833f7f7d186fd.js"
+  "/amor_ruel/precache-manifest.a6d5c65e401bcb09c26b951885ea0812.js"
 );
 
 workbox.clientsClaim();

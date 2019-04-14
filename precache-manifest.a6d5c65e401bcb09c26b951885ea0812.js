@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/amor_ruel/static/js/runtime~main.116fbfc7.js"
   },
   {
-    "revision": "a694b47aa5b56501453d",
-    "url": "/amor_ruel/static/js/main.9d382759.chunk.js"
+    "revision": "ff1bf29bd47dcb9fc303",
+    "url": "/amor_ruel/static/js/main.bf9b7fc3.chunk.js"
   },
   {
     "revision": "40cb802abfe13f64e045",
     "url": "/amor_ruel/static/js/2.19eb89f5.chunk.js"
   },
   {
-    "revision": "a694b47aa5b56501453d",
-    "url": "/amor_ruel/static/css/main.be2425d4.chunk.css"
+    "revision": "ff1bf29bd47dcb9fc303",
+    "url": "/amor_ruel/static/css/main.c2bad3c8.chunk.css"
   },
   {
-    "revision": "1f9857bdf2e196f399e5259261531596",
+    "revision": "7c8475e30755dd386d981d48bd5148c2",
     "url": "/amor_ruel/index.html"
   }
 ];
