@@ -106,6 +106,13 @@ li a:hover {
 	color: #72ffc9;
 }
 
+.line{
+	width: auto;
+	font-weight: bold;
+	font-family: 'Great Vibes', cursive;
+	color: #72ffc9;
+}
+
 
 @media only screen and (max-width: 1200px) {
 
@@ -155,5 +162,19 @@ li a:hover {
 	.picture{
 		width: 250px;
 	}
+
+	.name-title{
+		font-size: 10pt;
+	}
+
+	.party{
+		font-size: 5.5pt;
+	}
+
+	.line{
+		width: 4px;
+		font-family: 'Great Vibes', cursive;
+	}
+
 }
 

@@ -26,9 +26,9 @@ const App = () => {
 				<ul className="navbar-nav">
 				  <li><Link to="/amor_ruel">About</Link></li>
 				  <li><Link to="/amor_ruel/details">Details</Link></li>
-				  <li><Link to="/amor_ruel/program">Program</Link></li>
-				  <li><Link to="/amor_ruel/party">Party</Link></li>
-				  <li><Link to="/amor_ruel/attire" className="last-item">Attire</Link></li>
+				  <li><Link to="/amor_ruel/program">Timeline</Link></li>
+				  <li><Link to="/amor_ruel/party">Wedding Party</Link></li>
+				  <li><Link to="/amor_ruel/attire" className="last-item">Dress Code</Link></li>
 				</ul>			
 			</div>
 		</nav>

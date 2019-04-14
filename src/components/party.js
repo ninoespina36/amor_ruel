@@ -2,7 +2,7 @@ import React from 'react';
 
 const Party = () =>{
 	return(
-		<div className="container-fluid">
+		<div className="container-fluid party">
 			<div className="row justify-content-md-center mt-5">
 				<div className="col" align="center">
 					<h1 className="name">Wedding Party</h1>
@@ -10,124 +10,149 @@ const Party = () =>{
 					<br />
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
-								<div className="col">PARENTS</div>
+								<div className="col">
+									PARENTS OF THE GROOM
+								</div>
 							</div>
-
 							<div className="row mb-1">
 								<div className="col">
-									<div className="row mb-1">
-										<div className="col">
-											Cirilo Rule
-										</div>
-									</div>
-									<div className="row mb-1">
-										<div className="col">
-											Julieta Rule
-										</div>
-									</div>
+									Mr. Cirilo Rule
+								</div>
+								<div className="line">
+								-
 								</div>
 								<div className="col">
-									<div className="row mb-1">
-										<div className="col">
-											Samuel Espina
-										</div>
-									</div>
-									<div className="row mb-1">
-										<div className="col">
-											Ma. Salome Espina
-										</div>
-									</div>
+									Mrs. Julieta Rule
 								</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
-
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
-								<div className="col">PRINCIPAL SPONSORS</div>
+								<div className="col">
+									PARENTS OF THE BRIDE
+								</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Rodrigo Ybanez</div>
-								<div className="col">Cherilona Ybanez</div>
+								<div className="col">
+									Mr. Samuel Espina
+								</div>
+								<div className="line">
+								-
+								</div>
+								<div className="col">
+									Mrs. Ma. Salome Espina
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div className="row justify-content-md-center mt-5">
+						<div className="col-lg-6">
+
+							<div className="row mb-1 name-title">
+								<div className="col-lg-12">PRINCIPAL SPONSORS</div>
+							</div>
+							<div className="row mb-1">
+								<div className="col">Mr. Rodrigo Ybanez</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Cherilona Ybanez</div>
 							</div>
 							<div className="row mb-1">
 								<div className="col">Dr. Angelito Lechago</div>
+								<div className="line">-</div>
 								<div className="col">Dr. Marites Lechago</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Joselito Tatad</div>
-								<div className="col">Araceli Tatad</div>
+								<div className="col">Mr. Joselito Tatad</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Araceli Tatad</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Raul Arabaca</div>
-								<div className="col">Mafel Arabaca</div>
+								<div className="col">Mr. Raul Arabaca</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Mafel Arabaca</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Leonidas Saniel</div>
-								<div className="col">Ricarda Saniel</div>
+								<div className="col">Mr. Leonidas Saniel</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Ricarda Saniel</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Nick Jala</div>
-								<div className="col">Tessielyn Dalagan</div>
+								<div className="col">Mr. Nick Jala</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Tessielyn Dalagan</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Antonilo Tatad</div>
-								<div className="col">Casiana Tatad</div>
+								<div className="col">Mr. Antonilo Tatad</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Casiana Tatad</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Ian Francis Espina</div>
-								<div className="col">Juvy Espina</div>
+								<div className="col">Mr. Ian Francis Espina</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Juvy Espina</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Bernardino Mortejo</div>
-								<div className="col">Gina Mortejo</div>
+								<div className="col">Mr. Bernardino Mortejo</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Gina Mortejo</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Trifon Batingal</div>
-								<div className="col">Ma. Louella Batingal</div>
+								<div className="col">Mr. Trifon Batingal</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Ma. Louella Batingal</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mario Escatron</div>
-								<div className="col">Ma. Leomilia Escatron</div>
+								<div className="col">Mr. Mario Escatron</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Ma. Leomilia Escatron</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">William Lapura</div>
-								<div className="col">Alegria Lapura</div>
+								<div className="col">Mr. William Lapura</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Alegria Lapura</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Noel Bongolto</div>
-								<div className="col">Maria Fatima Bongolto</div>
+								<div className="col">Mr. Noel Bongolto</div>
+								<div className="line">-</div>
+								<div className="col"> Mrs. Maria Fatima Bongolto</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Joel Salazar</div>
-								<div className="col">Faustina Salazar</div>
+								<div className="col">Mr. Joel Salazar</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Faustina Salazar</div>
 							</div>
 							<div className="row mb-1">
 								<div className="col">Atty. Eladio Jala</div>
-								<div className="col">Cleofe Doterte</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Cleofe Doterte</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Crisanto Ejera</div>
-								<div className="col">Marichu Ejera</div>
+								<div className="col">Mr. Crisanto Ejera</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Marichu Ejera</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Elesio Ejera</div>
-								<div className="col">Vilma Ejera</div>
+								<div className="col">Mr. Elesio Ejera</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Vilma Ejera</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Eulyses Rule</div>
-								<div className="col">Erlinda Rule</div>
+								<div className="col">Mr. Eulyses Rule</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Erlinda Rule</div>
 							</div>
 						</div>
 					</div>
 
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-6">
 							<div className="row mb-1 name-title">
 								<div className="col">SECONDARY SPONSORS</div>
 							</div>
@@ -136,24 +161,27 @@ const Party = () =>{
 								<div className="col">CANDLE</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Rodrigo Ybanez</div>
-								<div className="col">Cherilona Ybanez</div>
+								<div className="col">Mr. Rodrigo Ybanez</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Cherilona Ybanez</div>
 							</div>
 
 							<div className="row mb-1 mt-3">
 								<div className="col">VEIL</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Alfredo Ejera</div>
-								<div className="col">Angeline Ejera</div>
+								<div className="col">Mr. Alfredo Ejera</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Angeline Ejera</div>
 							</div>
 
 							<div className="row mb-1 mt-3">
 								<div className="col">CORD</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Atilano Ingles</div>
-								<div className="col">Angie Ingles</div>
+								<div className="col">Mr. Atilano Ingles</div>
+								<div className="line">-</div>
+								<div className="col">Mrs. Angie Ingles</div>
 							</div>
 						</div>
 					</div>
@@ -161,177 +189,150 @@ const Party = () =>{
 					<h2 className="name mt-5">Bridal Entourage</h2>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">BESTMAN</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Glenn Bert Ejera</div>
+								<div className="col">Mr. Glenn Bert Ejera</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">MAID OF HONOR</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Geraldine Espina</div>
+								<div className="col">Ms. Geraldine Espina</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
+						<div className="col-lg-7">
 
-						<div className="col-md-5">
 							<div className="row mb-1 name-title">
 								<div className="col">GROOMSMEN</div>
-							</div>
-
-							<div className="row mb-1">
-								<div className="col">Christian Howell Szolcsanyi</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Arnold Angelo Ruiz</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Michael Josue Sarmiento</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Edzel Lumactud</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Nino Christopher Espina</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Ed Briana Babor</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Kim Lloyd Doterte</div>
-							</div>
-							<div className="row mb-5">
-								<div className="col">Cyril James Ybanez</div>
-							</div>
-						</div>
-
-						<div className="col-md-5">
-							<div className="row mb-1 name-title">
+								<div className="line"></div>
 								<div className="col">BRIDESMAIDS</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Lindy Claire Renegado</div>
+								<div className="col">Mr. Christian Howell Szolcsanyi</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Lindy Claire Renegado</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Angelique Kaye Paredes</div>
+								<div className="col">Mr. Arnold Angelo Ruiz</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Angelique Kaye Paredes</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Gretel Tuyac</div>
+								<div className="col">Mr. Michael Josue Sarmiento</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Gretel Tuyac</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Donna June Rara</div>
+								<div className="col">Mr. Edzel Lumactud</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Donna June Rara</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Angelie Gae Pilayre</div>
+								<div className="col">Mr. Nino Christopher Espina</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Angelie Gae Pilayre</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Madel Beldad</div>
+								<div className="col">Mr. Ed Briana Babor</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Madel Beldad</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Nece Grace Marimon</div>
+								<div className="col">Mr. Kim Lloyd Doterte</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Nece Grace Marimon</div>
 							</div>
-							<div className="row mb-1">
-								<div className="col">Arjellae Bolotaolo</div>
+							<div className="row mb-5">
+								<div className="col">Mr. Cyril James Ybanez</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Arjellae Bolotaolo</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
+						<div className="col-lg-7">
 
-						<div className="col-md-5 mb-5">
 							<div className="row mb-1 name-title">
 								<div className="col">JUNIOR GROOMSMEN</div>
-							</div>
-
-							<div className="row mb-1">
-								<div className="col">Samuel Espina Jr.</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Kyanniel Vincent Roferos</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">John Amiel Tatad</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Nino Rey Tupas</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Aldous Rey Espina</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Kenneth Ejera</div>
-							</div>
-						</div>
-
-						<div className="col-md-5">
-							<div className="row mb-1 name-title">
+								<div className="line"></div>
 								<div className="col">JUNIOR BRIDESMAIDS</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Kianna Francis Roferos</div>
+								<div className="col">Mr. Samuel Espina Jr.</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Kianna Francis Roferos</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Sheena Angelu Renegado</div>
+								<div className="col">Mr. Kyanniel Vincent Roferos</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Sheena Angelu Renegado</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Althea Rhyll Renegado</div>
+								<div className="col">Mr. John Amiel Tatad</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Althea Rhyll Renegado</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Prixie Myrr Medalla</div>
+								<div className="col">Mr. Nino Rey Tupas</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Prixie Myrr Medalla</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Precious Ejera</div>
+								<div className="col">Mr. Aldous Rey Espina</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Precious Ejera</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Shannon Christi Araneta</div>
+								<div className="col">Mr. Kenneth Ejera</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Shannon Christi Araneta</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">LITTLE GROOM WITH ESCORT</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Mc Eddie Babor</div>
-								<div className="col">Devona Matildo</div>
+								<div className="col">Mr. Mc Eddie Babor</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Devona Matildo</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
-								<div className="col">GROOM WITH HIS PARENTS</div>
+								<div className="col">THE GROOM</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Ruel De Gracia Rule</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Cirilo Rule</div>
-								<div className="col">Julieta Rule</div>
+								<div className="col">Mr. Ruel De Gracia Rule</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">BEARERS</div>
 							</div>
@@ -340,71 +341,70 @@ const Party = () =>{
 								<div className="col">RING</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Kyle Matthew Roferos</div>
+								<div className="col">Mr. Kyle Matthew Roferos</div>
 							</div>
 
 							<div className="row mb-1 mt-3">
 								<div className="col">COIN</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">John Timothy Ejera</div>
+								<div className="col">Mr. John Timothy Ejera</div>
 							</div>
 
 							<div className="row mb-1 mt-3">
 								<div className="col">BIBLE</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">John Michael Luayon</div>
+								<div className="col">Mr. John Michael Luayon</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">FLOWER GIRLS</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Princess Ageinah Dawn Garan</div>
+								<div className="col">Ms. Princess Ageinah Dawn Garan</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Ana Margarette Ejera</div>
+								<div className="col">Ms. Ana Margarette Ejera</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Athena Mheryl Renegado</div>
+								<div className="col">Ms. Athena Mheryl Renegado</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Fevie Ejera</div>
+								<div className="col">Ms. Fevie Ejera</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mia Vellah Abucayan</div>
+								<div className="col">Ms. Mia Vellah Abucayan</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">LITTLE BRIDE WITH ESCORT</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Zadie Faye Rule-Licayan</div>
-								<div className="col">Arlene Rule</div>
+								<div className="col">Mr. Zadie Faye Rule-Licayan</div>
+								<div className="line">-</div>
+								<div className="col">Ms. Arlene Rule</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
-								<div className="col">PARENTS OF THE BRIDE</div>
+								<div className="col">THE BRIDE</div>
 							</div>
-
 							<div className="row mb-1">
-								<div className="col">Samuel Espina</div>
-								<div className="col">Ma. Salome Espina</div>
+								<div className="col">Ms. Amor Rosario Espina</div>
 							</div>
 						</div>
 					</div>
@@ -412,7 +412,7 @@ const Party = () =>{
 					<h2 className="name mt-5">Liturgical</h2>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">PRIEST</div>
 							</div>
@@ -424,67 +424,67 @@ const Party = () =>{
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">FIRST READING</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Ma. Eda Jumawan</div>
+								<div className="col">Ms. Ma. Eda Jumawan</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">SECOND READING</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Mary Grace Ingles</div>
+								<div className="col">Ms. Mary Grace Ingles</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">RESPONSORIAL PSALM</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Lourdes Tupas</div>
+								<div className="col">Mrs. Lourdes Tupas</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">PRAYERS OF THE FAITHFUL</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Celyn Rule</div>
+								<div className="col">Ms. Celyn Rule</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">MASS COMMENTATOR</div>
 							</div>
 
 							<div className="row mb-1">
-								<div className="col">Angel</div>
+								<div className="col">Ms. Angel</div>
 							</div>
 						</div>
 					</div>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">CHOIR</div>
 							</div>
@@ -498,59 +498,57 @@ const Party = () =>{
 					<h2 className="name mt-5">Offertory</h2>
 
 					<div className="row justify-content-md-center mt-5">
-						<div className="col-md-5">
+						<div className="col-lg-7">
 
 							<div className="row mb-1">
-								<div className="col name-title">WINE</div>
+								<div className="col">WINE</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Jade Ference Tatad Szolcsanyi</div>
+								<div className="col">Mr. Jade Ference Tatad Szolcsanyi</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Merrylen Barong</div>
+								<div className="col">Ms. Merrylen Barong</div>
+							</div>
+							<div className="row mb-1 mt-3">
+								<div className="col">FRUITS</div>
+							</div>
+							<div className="row mb-1">
+								<div className="col">Mr. Ruel Barril</div>
+							</div>
+							<div className="row mb-1 mt-3">
+								<div className="col">Mrs. Jonel Barril</div>
+							</div>
+							<div className="row mb-1 mt-3">
+								<div className="col">CANDLES</div>
+							</div>
+							<div className="row mb-1">
+								<div className="col">Mrs. Madelone Abucayan</div>
+							</div>
+							<div className="row mb-1">
+								<div className="col">Mr. Mark Gregory Espina</div>
 							</div>
 
-							<div className="row mb-1 mt-5">
-								<div className="col name-title">FRUITS</div>
+							<div className="row mb-1 mt-3">
+								<div className="col">FLOWERS</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Ruel Barril</div>
+								<div className="col">Mrs. Ana Dolores Roferos</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Jonel Barril</div>
+								<div className="col">Mrs. Melinda Renegado</div>
+							</div>
+							<div className="row mb-1">
+								<div className="col">Mrs. Maria Liza Szolcsanyi</div>
 							</div>
 
-							<div className="row mb-1 mt-5">
-								<div className="col name-title">CANDLES</div>
+							<div className="row mb-1 mt-3">
+								<div className="col">EUCHARIST</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Madelone Abucayan</div>
+								<div className="col">Mr. Anthony Galab</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Mark Gregory Espina</div>
-							</div>
-
-							<div className="row mb-1 mt-5">
-								<div className="col name-title">FLOWERS</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Ana Dolores Roferos</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Melinda Renegado</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Maria Liza Szolcsanyi</div>
-							</div>
-
-							<div className="row mb-1 mt-5">
-								<div className="col name-title">EUCHARIST</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Anthony Galab</div>
-							</div>
-							<div className="row mb-1">
-								<div className="col">Maria Galab</div>
+								<div className="col">Mrs. Maria Galab</div>
 							</div>
 						</div>
 					</div>
