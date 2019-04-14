@@ -2,7 +2,7 @@
   "name": "amor_ruel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ninoespina36.github.io/amor_ruel/",
+  "homepage": "https://ninoespina36.github.io/amor_ruel",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
