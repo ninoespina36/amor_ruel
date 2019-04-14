@@ -25,20 +25,20 @@ const App = () => {
 
 			<div className="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul className="navbar-nav">
-				  <li><Link to="/">About</Link></li>
-				  <li><Link to="/details">Details</Link></li>
-				  <li><Link to="/program">Timeline</Link></li>
-				  <li><Link to="/party">Wedding Party</Link></li>
-				  <li><Link to="/attire" className="last-item">Dress Code</Link></li>
+				  <li><Link to="/ruelandamor">About</Link></li>
+				  <li><Link to="/ruelandamor/details">Details</Link></li>
+				  <li><Link to="/ruelandamor/program">Timeline</Link></li>
+				  <li><Link to="/ruelandamor/party">Wedding Party</Link></li>
+				  <li><Link to="/ruelandamor/attire" className="last-item">Dress Code</Link></li>
 				</ul>			
 			</div>
 		</nav>
 
 		<div className="wrapper">
 			<div className="container">
-				<Route path="/" exact component={About}></Route>
-				<Route path="/details" component={Details}></Route>
-				<Route path="/party" component={Party}></Route>
+				<Route path="/ruelandamor" exact component={About}></Route>
+				<Route path="/ruelandamor/details" component={Details}></Route>
+				<Route path="/ruelandamor/party" component={Party}></Route>
 			</div>
 		</div>
 
