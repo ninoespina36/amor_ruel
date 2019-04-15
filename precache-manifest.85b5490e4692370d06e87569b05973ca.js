@@ -4,6 +4,10 @@ self.__precacheManifest = [
     "url": "/ruelandamor/static/media/ruel.309bacd6.png"
   },
   {
+    "revision": "8212dc03dcfbe61eb40a9734db3a5b4a",
+    "url": "/ruelandamor/static/media/map.8212dc03.png"
+  },
+  {
     "revision": "c47caa6a5864f89f7cc86234912a1b14",
     "url": "/ruelandamor/static/media/cover.c47caa6a.png"
   },
@@ -20,19 +24,19 @@ self.__precacheManifest = [
     "url": "/ruelandamor/static/js/runtime~main.6840bab7.js"
   },
   {
-    "revision": "1a27210c2184792df624",
-    "url": "/ruelandamor/static/js/main.837449df.chunk.js"
+    "revision": "c2d2946305867b76557f",
+    "url": "/ruelandamor/static/js/main.3e53ffc0.chunk.js"
   },
   {
-    "revision": "40cb802abfe13f64e045",
-    "url": "/ruelandamor/static/js/2.19eb89f5.chunk.js"
+    "revision": "435233c0ed6131abec32",
+    "url": "/ruelandamor/static/js/2.6005612e.chunk.js"
   },
   {
-    "revision": "1a27210c2184792df624",
-    "url": "/ruelandamor/static/css/main.cfc26dd2.chunk.css"
+    "revision": "c2d2946305867b76557f",
+    "url": "/ruelandamor/static/css/main.ee806373.chunk.css"
   },
   {
-    "revision": "43bdc2507e29b3a6f4c39a4d3d7e2aaa",
+    "revision": "6bb5cf5623918bcbeeba8b7be28fea84",
     "url": "/ruelandamor/index.html"
   }
 ];
