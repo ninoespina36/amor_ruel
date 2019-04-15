@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/ruelandamor/static/js/runtime~main.6840bab7.js"
   },
   {
-    "revision": "60e8d126aa860a72a3b4",
+    "revision": "58999eeaf2db78c399a7",
     "url": "/ruelandamor/static/js/main.54f95210.chunk.js"
   },
   {
@@ -32,11 +32,11 @@ self.__precacheManifest = [
     "url": "/ruelandamor/static/js/2.c9bfeda3.chunk.js"
   },
   {
-    "revision": "60e8d126aa860a72a3b4",
-    "url": "/ruelandamor/static/css/main.c94ad670.chunk.css"
+    "revision": "58999eeaf2db78c399a7",
+    "url": "/ruelandamor/static/css/main.b0a67773.chunk.css"
   },
   {
-    "revision": "8269fd181c228fc5a38a08de41ed584f",
+    "revision": "d91a21f985d541d9dfa3afa3d0247432",
     "url": "/ruelandamor/index.html"
   }
 ];
