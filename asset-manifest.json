@@ -1,18 +1,18 @@
 {
-  "main.css": "/ruelandamor/static/css/main.ee806373.chunk.css",
-  "main.js": "/ruelandamor/static/js/main.3e53ffc0.chunk.js",
-  "main.js.map": "/ruelandamor/static/js/main.3e53ffc0.chunk.js.map",
+  "main.css": "/ruelandamor/static/css/main.a5696839.chunk.css",
+  "main.js": "/ruelandamor/static/js/main.54f95210.chunk.js",
+  "main.js.map": "/ruelandamor/static/js/main.54f95210.chunk.js.map",
   "runtime~main.js": "/ruelandamor/static/js/runtime~main.6840bab7.js",
   "runtime~main.js.map": "/ruelandamor/static/js/runtime~main.6840bab7.js.map",
-  "static/js/2.6005612e.chunk.js": "/ruelandamor/static/js/2.6005612e.chunk.js",
-  "static/js/2.6005612e.chunk.js.map": "/ruelandamor/static/js/2.6005612e.chunk.js.map",
+  "static/js/2.c9bfeda3.chunk.js": "/ruelandamor/static/js/2.c9bfeda3.chunk.js",
+  "static/js/2.c9bfeda3.chunk.js.map": "/ruelandamor/static/js/2.c9bfeda3.chunk.js.map",
   "index.html": "/ruelandamor/index.html",
-  "precache-manifest.85b5490e4692370d06e87569b05973ca.js": "/ruelandamor/precache-manifest.85b5490e4692370d06e87569b05973ca.js",
+  "precache-manifest.aaa216f9508f8d76cb74f7cc1d298c98.js": "/ruelandamor/precache-manifest.aaa216f9508f8d76cb74f7cc1d298c98.js",
   "service-worker.js": "/ruelandamor/service-worker.js",
-  "static/css/main.ee806373.chunk.css.map": "/ruelandamor/static/css/main.ee806373.chunk.css.map",
-  "static/media/amor.png": "/ruelandamor/static/media/amor.34e088fb.png",
+  "static/css/main.a5696839.chunk.css.map": "/ruelandamor/static/css/main.a5696839.chunk.css.map",
   "static/media/custom.css": "/ruelandamor/static/media/bg_.d7f073e0.png",
+  "static/media/boys_attire.png": "/ruelandamor/static/media/boys_attire.0597d4bc.png",
   "static/media/cover.png": "/ruelandamor/static/media/cover.c47caa6a.png",
-  "static/media/map.png": "/ruelandamor/static/media/map.8212dc03.png",
-  "static/media/ruel.png": "/ruelandamor/static/media/ruel.309bacd6.png"
+  "static/media/girls_attire.png": "/ruelandamor/static/media/girls_attire.e4d38438.png",
+  "static/media/map.png": "/ruelandamor/static/media/map.8212dc03.png"
 }
