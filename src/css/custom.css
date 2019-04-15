@@ -40,6 +40,11 @@ body{
 	font-family: 'Great Vibes', cursive;
 }
 
+.amor_ruel_2{
+	font-family: 'Great Vibes', cursive;
+	text-shadow: 3px 2px #000;
+}
+
 .date{
 	padding: 5px 150px;
 	font-size: 30pt;
@@ -85,6 +90,11 @@ li a:hover {
   	background-color: #72ffc9;
 }
 
+.is-active{
+	color: #000;
+  	background-color: #72ffc9;
+}
+
 .last-item{
 	border: 0;
 }
@@ -114,15 +124,36 @@ li a:hover {
 }
 
 .vertical-line{
-	height: 55px;
+	height: 50px;
 	border-left: 2px solid #72ffc9;
 }
 
 .map{
-	border: 3px solid #72ffc9;
 	width: 50%;
-	height: 250px;
+	height: 380px;
 	box-shadow: 5px 5px 5px #000;
+}
+
+.details_intro{
+	font-family: 'Courgette', cursive;
+	font-size: 13pt;
+	color: #72ffc9;	
+}
+
+.dot{
+	height: 5px;
+  	width: 5px;
+  	bottom: 2.5px;
+  	background-color: #72ffc9;
+  	border-radius: 50%;
+  	display: inline-block;	
+}
+
+.date-circle{
+	font-size: 5pt;
+	vertical-align: middle;
+	padding: 0 5px 0 5px;
+	color: #72ffc9;
 }
 
 
@@ -180,15 +211,15 @@ li a:hover {
 	}
 
 	.party{
-		font-size: 5.5pt;
+		font-size: 6pt;
 	}
 
 	.details{
-		font-size: 9pt;
+		font-size: 7.2pt;
 	}
 
 	.vertical-line{
-		height: 40px;
+		height: 33px;
 	}
 
 	.line{
@@ -198,7 +229,16 @@ li a:hover {
 
 	.map{
 		width: 90%;
-		height: 250px;
+		height: 200px;
 	}
+
+	.details_intro{
+		font-size: 9pt;
+	}
+
+	.date-circle{
+		font-size: 2pt;
+	}
+
 }
 

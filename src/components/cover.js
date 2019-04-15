@@ -10,7 +10,7 @@ const Cover = () => {
 				<br />
 
 				<span className="date">
-					<span>05.04.19</span>
+					<span>05<i className="fas fa-circle date-circle"></i>04<i className="fas fa-circle date-circle"></i>19</span>
 				</span>
 			</div>
 		</div>

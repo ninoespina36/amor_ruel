@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Cover from './components/cover';
-import { BrowserRouter,Route,Link } from 'react-router-dom';
+import { BrowserRouter,Route,NavLink } from 'react-router-dom';
 
 //Components
 import About from './components/about';
@@ -25,11 +25,11 @@ const App = () => {
 
 			<div className="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul className="navbar-nav">
-				  <li><Link to="/ruelandamor">About</Link></li>
-				  <li><Link to="/ruelandamor/details">Details</Link></li>
-				  <li><Link to="/ruelandamor/program">Timeline</Link></li>
-				  <li><Link to="/ruelandamor/party">Wedding Party</Link></li>
-				  <li><Link to="/ruelandamor/attire" className="last-item">Dress Code</Link></li>
+				  <li><NavLink to="/ruelandamor" exact activeClassName='is-active'>About</NavLink></li>
+				  <li><NavLink to="/ruelandamor/details" activeClassName='is-active'>Details</NavLink></li>
+				  <li><NavLink to="/ruelandamor/program" activeClassName='is-active'>Timeline</NavLink></li>
+				  <li><NavLink to="/ruelandamor/party" activeClassName='is-active'>Wedding Party</NavLink></li>
+				  <li><NavLink to="/ruelandamor/attire" className="last-item" activeClassName='is-active'>Dress Code</NavLink></li>
 				</ul>			
 			</div>
 		</nav>
