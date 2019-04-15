@@ -57,7 +57,7 @@ body{
 	background: rgba(11, 25, 19, 0.6);
 	width: 100%;
 	position: relative;
-	box-shadow: 5px 5px 5px #000;
+	box-shadow: 0 5px 5px #000;
 }
 
 ul {
@@ -247,7 +247,8 @@ img.boys_attire{
 		background: rgba(11, 25, 19);
 		width: 100%;
 		position: relative;
-		justify-content: center
+		justify-content: center;
+		box-shadow: 0 3px 5px #000;
 	}
 
 	li {
