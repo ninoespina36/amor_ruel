@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/ruelandamor/static/js/runtime~main.6840bab7.js"
   },
   {
-    "revision": "58999eeaf2db78c399a7",
-    "url": "/ruelandamor/static/js/main.54f95210.chunk.js"
+    "revision": "3e85a673f16fdde9e788",
+    "url": "/ruelandamor/static/js/main.7c1c681a.chunk.js"
   },
   {
     "revision": "74af17405aae6bf31693",
     "url": "/ruelandamor/static/js/2.c9bfeda3.chunk.js"
   },
   {
-    "revision": "58999eeaf2db78c399a7",
+    "revision": "3e85a673f16fdde9e788",
     "url": "/ruelandamor/static/css/main.b0a67773.chunk.css"
   },
   {
-    "revision": "d91a21f985d541d9dfa3afa3d0247432",
+    "revision": "771008edeaf13baf187c17c413fc5ced",
     "url": "/ruelandamor/index.html"
   }
 ];
