@@ -14,6 +14,24 @@ const Header = () =>{
 					<span className="date">
 						<span>05<i className="fas fa-circle date-circle"></i>04<i className="fas fa-circle date-circle"></i>19</span>
 					</span>
+
+					<span className="countdown">
+
+					<span className="spacing">
+						<br />
+						<br />
+						<br />
+						<br />
+					</span>
+
+						<div className="row justify-content-center">
+							<div className="col">
+							<img src={require("../images/calendar.png")} className="calendar" alt="calendar" />
+								<h2 className="calendar-date">18</h2>
+								<p className="days-to-go">Days to go!</p>
+							</div>
+						</div>
+					</span>
 				</div>
 			</div>
 

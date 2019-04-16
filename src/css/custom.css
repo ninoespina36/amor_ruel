@@ -15,10 +15,24 @@ body{
 	padding-bottom: 50px;
 }
 
-
 .cover_photo{
 	width: 100%;
 	filter: brightness(60%);
+}
+
+.calendar{
+	width: 100px;
+	position: absolute;
+	top: -35px;
+	left: 248px;
+}
+
+.calendar-date{
+	color: #72ffc9;
+}
+
+.days-to-go{
+	font-family: 'Courgette', cursive;
 }
 
 .title{
@@ -26,7 +40,7 @@ body{
 	text-align: center;
 	color: #fff;
 	position: absolute;
-	top: 50%;
+	top: 58%;
  	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -226,7 +240,7 @@ img.boys_attire{
 		text-align: center;
 		color: #fff;
 		position: absolute;
-		top: 15%;
+		top: 20%;
 	 	left: 50%;
 		transform: translate(-50%, -50%);
 	}
@@ -235,7 +249,7 @@ img.boys_attire{
 	}
 
 	.date{
-		padding: 5px 50px;
+		padding: 5px 25px;
 		font-size: 10pt;
 		border-top: 1px solid #fff;
 		border-bottom: 1px solid #fff;
@@ -317,5 +331,28 @@ img.boys_attire{
 	.attire_rustic-icon{
 		font-size: 35pt;
 	}
+
+	.spacing{
+		display: none;
+	}
+
+	.calendar{
+		width: 30px;
+		left: 70px;
+		top: 9px;
+	}
+
+	.calendar-date{
+		position: relative;
+		top: 21px;
+		font-size: 6pt;
+	}
+
+	.days-to-go{
+		position: relative;
+		top: 15px;
+		font-size: 9pt;
+	}
+
 }
 
