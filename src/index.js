@@ -20,7 +20,7 @@ import './css/custom.css';
 const NoMatch = () =>(
 	<div className="container-fluid mb-5">
 		<h1 className="mt-5">404</h1>
-		<p>Oops! Nothing to see here. Please click this <NavLink to="/ruelandamor" className="link">link</NavLink> to redirect to the home page.</p>
+		<p>Oops! Nothing to see here. Please click this <NavLink to="/ruelandamor" exact className="link">link</NavLink> to redirect to the home page.</p>
 	</div>
 )
 
@@ -44,6 +44,7 @@ class App extends Component{
 										<Route path="/ruelandamor/party" component={Party}></Route>
 										<Route path="/ruelandamor/attire" component={Dress}></Route>
 										<Route path="/ruelandamor/gallery" component={Gallery}></Route>
+										<Route path="/ruelandamor" component={NoMatch}></Route>
 										<Route component={NoMatch}></Route>
 									</Switch>
 								</CSSTransition>
