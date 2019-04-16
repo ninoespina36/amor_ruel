@@ -44,7 +44,6 @@ class App extends Component{
 										<Route path="/ruelandamor/party" component={Party}></Route>
 										<Route path="/ruelandamor/attire" component={Dress}></Route>
 										<Route path="/ruelandamor/gallery" component={Gallery}></Route>
-										<Route path="/ruelandamor" component={NoMatch}></Route>
 										<Route component={NoMatch}></Route>
 									</Switch>
 								</CSSTransition>
