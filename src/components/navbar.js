@@ -10,11 +10,11 @@ const Navbar = () => {
 
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav">
-					  <li><NavLink to="/ruelandamor" exact activeClassName='is-active'>Details</NavLink></li>
-					  <li><NavLink to="/ruelandamor/timeline" activeClassName='is-active'>Timeline</NavLink></li>
-					  <li><NavLink to="/ruelandamor/party" activeClassName='is-active'>Wedding Party</NavLink></li>
-					  <li><NavLink to="/ruelandamor/attire" activeClassName='is-active'>Dress Code</NavLink></li>
-					  <li><NavLink to="/ruelandamor/gallery" className="last-item" activeClassName='is-active'>Gallery</NavLink></li>
+					  <li><NavLink to="/" exact activeClassName='is-active'>Details</NavLink></li>
+					  <li><NavLink to="/timeline" activeClassName='is-active'>Timeline</NavLink></li>
+					  <li><NavLink to="/party" activeClassName='is-active'>Wedding Party</NavLink></li>
+					  <li><NavLink to="/attire" activeClassName='is-active'>Dress Code</NavLink></li>
+					  <li><NavLink to="/gallery" className="last-item" activeClassName='is-active'>Gallery</NavLink></li>
 					</ul>			
 				</div>
 			</nav>

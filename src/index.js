@@ -39,11 +39,11 @@ class App extends Component{
 							<TransitionGroup>
 								<CSSTransition key={location.key} timeout={450} classNames="fade">
 									<Switch location={location}>
-										<Route path="/ruelandamor" exact component={Details}></Route>
-										<Route path="/ruelandamor/timeline" component={Timeline}></Route>
-										<Route path="/ruelandamor/party" component={Party}></Route>
-										<Route path="/ruelandamor/attire" component={Dress}></Route>
-										<Route path="/ruelandamor/gallery" component={Gallery}></Route>
+										<Route path="/" exact component={Details}></Route>
+										<Route path="/timeline" component={Timeline}></Route>
+										<Route path="/party" component={Party}></Route>
+										<Route path="/attire" component={Dress}></Route>
+										<Route path="/gallery" component={Gallery}></Route>
 										<Route component={NoMatch}></Route>
 									</Switch>
 								</CSSTransition>
