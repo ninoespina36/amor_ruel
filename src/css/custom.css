@@ -36,7 +36,7 @@ body{
 }
 
 .title{
-	text-shadow: 3px 2px #000;
+	text-shadow: 2px 2px 2px #000;
 	text-align: center;
 	color: #fff;
 	position: absolute;
@@ -236,7 +236,7 @@ img.boys_attire{
 	}
 
 	.title{
-		text-shadow: 3px 2px #000;
+		text-shadow: 2px 2px 2px #000;
 		text-align: center;
 		color: #fff;
 		position: absolute;

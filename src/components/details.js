@@ -81,22 +81,16 @@ const Details = () =>{
 						<div className="col-lg-7">
 							<div className="row mb-1 name-title">
 								<div className="col">
-									RECEPTION TO FOLLOW
+									WISHING WELL
 								</div>
 							</div>
 							<div className="row mb-1">
 								<div className="col">
-									Dagohoy Grand Hall, Bohol Tropics Resort
-									<br/>
-									Graham Avenue, Tagbilaran City
+									If you were thinking of giving a gift to help us on our way. A gift of cash towards our house, would really make our day. However, if you prefer a gift, feel free to surprise us in your own special way.
 								</div>
 							</div>
 						</div>
 					</div>
-
-					<br />
-
-					<img src={require("../images/map.png")} alt="map" className="map" />
 
 				</div>
 			</div>
