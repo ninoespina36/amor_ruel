@@ -16,6 +16,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 //Custom CSS
 import './css/custom.css';
 
+//No match Component
 const NoMatch = () =>(
 	<div className="container-fluid mb-5">
 		<h1 className="mt-5">404</h1>

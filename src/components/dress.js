@@ -41,7 +41,7 @@ const Dress = () =>{
 
 					<br />
 
-					<span>Long sleeves or Black suit for gentlemen</span>
+					<span>Polo or Suit for gentlemen</span>
 				</div>
 			</div>
 		</div>
