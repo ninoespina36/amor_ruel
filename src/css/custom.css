@@ -221,12 +221,13 @@ img.boys_attire{
 
 .img-con{
 	overflow: hidden;
+	box-shadow: 2px 3px 3px #000;
 }
 
 img.fit-image{
-   -moz-transition: all 2s;
-   -webkit-transition: all 2s;
-   transition: all 2s;
+   -moz-transition: all 10s;
+   -webkit-transition: all 10s;
+   transition: all 10s;
 }
 
 img.fit-image:hover{
@@ -237,10 +238,6 @@ img.fit-image:hover{
 
 .grid-padding{
 	padding: 10px;
-}
-
-.grid-padding img{
-	box-shadow: 2px 3px 3px #000;
 }
 
 .gallery-date{
