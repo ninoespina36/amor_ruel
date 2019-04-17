@@ -214,6 +214,23 @@ img.boys_attire{
 	font-size: 35pt;
 }
 
+.fit-image{
+	height: 100%;
+	width: 100%;
+}
+
+.grid-padding{
+	padding: 10px;
+}
+
+.grid-padding img{
+	box-shadow: 2px 3px 3px #000;
+}
+
+.gallery-date{
+	font-size: 20pt;
+}
+
 .fade-appear,
 .fade-enter{
 	opacity: 0;
@@ -366,6 +383,10 @@ img.boys_attire{
 		font-size: 15pt;
 		margin: 15px 0 -15px 0;
 		font-family: 'Great Vibes', cursive;
+	}
+
+	.gallery-title{
+		display: none;
 	}
 
 }
