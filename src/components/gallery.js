@@ -10,7 +10,7 @@ const Gallery = () =>{
 				</div>
 			</div>
 
-			<div className="grid-padding mt-5">
+			<div className="mt-5">
 				<div className="row">
 					<div className="col-sm-4">
 						<div className="row">

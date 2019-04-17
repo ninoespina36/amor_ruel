@@ -236,10 +236,6 @@ img.fit-image:hover{
    transform: scale(1.1);
 }
 
-.grid-padding{
-	padding: 10px;
-}
-
 .gallery-date{
 	font-size: 20pt;
 }
