@@ -219,6 +219,22 @@ img.boys_attire{
 	width: 100%;
 }
 
+.img-con{
+	overflow: hidden;
+}
+
+img.fit-image{
+   -moz-transition: all 2s;
+   -webkit-transition: all 2s;
+   transition: all 2s;
+}
+
+img.fit-image:hover{
+   -moz-transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
 .grid-padding{
 	padding: 10px;
 }
