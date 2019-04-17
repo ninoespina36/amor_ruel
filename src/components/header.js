@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 import Navbar from './navbar';
-import Days from './days';
+import Countown from './countdown';
 
 class Header extends Component{
 
@@ -8,7 +8,7 @@ class Header extends Component{
 		super(props);
 
 		this.state = {
-			deadline: 'May 04, 2019'
+			deadline: 'May 04,2019'
 		}
 	}
 
@@ -28,20 +28,19 @@ class Header extends Component{
 
 						<span className="countdown">
 
-						<span className="spacing">
-							<br />
-							<br />
-							<br />
-							<br />
-						</span>
+							<span className="spacing">
+								<br />
+								<br />
+							</span>
+									
+							{
+								Date.parse(this.state.deadline) > Date.parse(new Date()) ?
 
-							<div className="row justify-content-center">
-								<div className="col">
-								<img src={require("../images/calendar.png")} className="calendar" alt="calendar" />
-									<Days deadline={this.state.deadline} />
-									<p className="days-to-go">Days to go!</p>
-								</div>
-							</div>
+								<Countown deadline={this.state.deadline} /> :
+
+								<h3 className="just_married">Just Married!</h3>
+							}
+										
 						</span>
 					</div>
 				</div>

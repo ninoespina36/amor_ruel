@@ -20,19 +20,25 @@ body{
 	filter: brightness(60%);
 }
 
-.calendar{
-	width: 100px;
-	position: absolute;
-	top: -35px;
-	left: 248px;
+.timer-box{
+	width: 80px;
 }
 
-.calendar-date{
+.dots{
 	color: #72ffc9;
+	font-size: 30pt;
 }
 
-.days-to-go{
-	font-family: 'Courgette', cursive;
+.countdown-timer{
+	font-size: 30pt;
+	position: absolute;
+	top: 5px;
+	left: 30px;
+}
+
+.just_married{
+	font-size: 30pt;
+	font-family: 'Great Vibes', cursive;
 }
 
 .title{
@@ -336,22 +342,30 @@ img.boys_attire{
 		display: none;
 	}
 
-	.calendar{
+	.timer-box{
+		position: absolute;
+		left: 0;
+		top: 15px;
 		width: 30px;
-		left: 70px;
-		top: 9px;
 	}
 
-	.calendar-date{
-		position: relative;
-		top: 21px;
-		font-size: 6pt;
-	}
-
-	.days-to-go{
+	.dots{
 		position: relative;
 		top: 15px;
-		font-size: 9pt;
+		left: -2px;
+		font-size: 12pt;
+	}
+
+	.countdown-timer{
+		font-size: 10pt;
+		top: 19px;
+		left: 7px;
+	}
+
+	.just_married{
+		font-size: 15pt;
+		margin: 15px 0 -15px 0;
+		font-family: 'Great Vibes', cursive;
 	}
 
 }
