@@ -225,9 +225,9 @@ img.boys_attire{
 }
 
 img.fit-image{
-   -moz-transition: all 10s;
-   -webkit-transition: all 10s;
-   transition: all 10s;
+   -moz-transition: all 20s;
+   -webkit-transition: all 20s;
+   transition: all 20s;
 }
 
 img.fit-image:hover{
@@ -259,6 +259,20 @@ img.fit-image:hover{
 .fade-exit.fade-exit-active{
 	opacity: 0;
 	transition: opacity 150ms linear;
+}
+
+.photo-gallery-mobile{
+	display: none;
+}
+
+.gallery-title{
+	margin-top: 100px;
+}
+
+.verse{
+	font-size: 15pt;
+	font-family: 'Courgette', cursive;
+	color: #72ffc9;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -394,8 +408,16 @@ img.fit-image:hover{
 		font-family: 'Great Vibes', cursive;
 	}
 
-	.gallery-title{
+	.photo-gallery-mobile{
+		display: unset;
+	}
+
+	.photo-gallery-web{
 		display: none;
+	}
+
+	.gallery-title{
+		margin-top: 0;
 	}
 
 }

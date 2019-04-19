@@ -262,7 +262,7 @@ const Party = () =>{
 								<div className="col">Angelie Gae Pilayre</div>
 							</div>
 							<div className="row mb-1">
-								<div className="col">Ed Briana Babor</div>
+								<div className="col">Ed Brian Babor</div>
 								<div className="line">-</div>
 								<div className="col">Madel Beldad</div>
 							</div>
