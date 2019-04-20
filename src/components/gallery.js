@@ -1,505 +1,212 @@
-import React from 'react';
+import React,{Component} from 'react';
+import Lightbox from 'react-image-lightbox';
 
-const Gallery = () =>{
-	return(
-		<div className="container-fluid">
+class Gallery extends Component{
 
-			<div className="row justify-content-md-center mt-5">
-				<div className="col" align="center">
-					<h1 className="name">Photo Gallery</h1>
-				</div>
-			</div>
+	  constructor(props) {
+    	super(props);
 
-			<div className="mt-5 photo-gallery-web">
-				<div className="row">
-					<div className="col-sm-4">
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0154.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
+    	this.state = {
+			photoIndex: 0,
+      		isOpen:false,
+			images:[
+				{
+					id: 0,
+					src: require("../images/gallery/DSC_0292.jpg"),
+				},
+				{
+					id: 1,
+					src: require("../images/gallery/DSC_0154.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 2,
+					src: require("../images/gallery/DSC_0218.jpg"),		
+				},
+				{
+					id: 3,
+					src: require("../images/gallery/DSC_0208.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 4,
+					src: require("../images/gallery/DSC_0279.jpg"),
+				},
+				{
+					id: 5,
+					src: require("../images/gallery/DSC_0345.jpg"),
+				},
+				{
+					id: 6,
+					src: require("../images/gallery/DSC_0359.jpg"),
+				},
+				{
+					id: 7,
+					src: require("../images/gallery/DSC_0396.jpg"),
+				},
+				{
+					id: 8,
+					src: require("../images/gallery/DSC_0443.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 9,
+					src: require("../images/gallery/DSC_0481.jpg"),
+				},
+				{
+					id: 10,
+					src: require("../images/gallery/DSC_0479.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 11,
+					src: require("../images/gallery/DSC_0433.jpg"),
+				},
+				{
+					id: 12,
+					src: require("../images/gallery/DSC_0490.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 13,
+					src: require("../images/gallery/DSC_0511.jpg"),
+				},
+				{
+					id: 14,
+					src: require("../images/gallery/DSC_0565.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 15,
+					src: require("../images/gallery/DSC_0513.jpg"),
+				},
+				{
+					id: 16,
+					src: require("../images/gallery/DSC_0597.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 17,
+					src: require("../images/gallery/DSC_0609.jpg"),
+				},
+				{
+					id: 18,
+					src: require("../images/gallery/DSC_0746.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 19,
+					src: require("../images/gallery/DSC_0646.jpg"),
+				},
+				{
+					id: 20,
+					src: require("../images/gallery/DSC_0737.jpg"),
+				},
+				{
+					id: 21,
+					src: require("../images/gallery/DSC_0758.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 22,
+					src: require("../images/gallery/DSC_0764.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 23,
+					src: require("../images/gallery/DSC_0808.jpg"),
+				},
+				{
+					id: 24,
+					src: require("../images/gallery/DSC_0843.jpg"),
+					className: 'v-img'
+				},
+				{
+					id: 25,
+					src: require("../images/gallery/DSC_0882.jpg"),
+				},
+				{
+					id: 26,
+					src: require("../images/gallery/DSC_0857.jpg"),
+					className: 'v-img'
+				},
+			]
+		}
+  	}
+
+	render(){
+		const { photoIndex, isOpen } = this.state;
+
+		const imageObjects = this.state.images.map( image =>{
+			return(
+					<img 
+						key={image.id}
+						src={image.src} 
+						className={image.className} 
+						alt="item" 
+						onClick={() => this.setState({
+							photoIndex:image.id,
+							isOpen:true
+
+						})}
+					/>
+			)
+		})
+
+		const imageStrings = this.state.images.map( image =>{
+			return(
+				image['src']
+			)
+		})
+
+		return(
+			<div className="container-fluid gallery">
+				<div className="row justify-content-md-center mt-5">
+					<div className="col" align="center">
+						<h1 className="name mb-5">Photo Gallery</h1>
+
+						<div className="images mt-2">
+							{imageObjects}
 						</div>
 
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0292.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
+						{isOpen && (
+				          <Lightbox
+				            mainSrc={imageStrings[photoIndex]}
+				            nextSrc={imageStrings[(photoIndex + 1) % imageStrings.length]}
+				            prevSrc={imageStrings[(photoIndex + imageStrings.length - 1) % imageStrings.length]}
+				            onCloseRequest={() => this.setState({ isOpen: false })}
+				            onMovePrevRequest={() =>
+				              this.setState({
+				                photoIndex: (photoIndex + imageStrings.length - 1) % imageStrings.length,
+				              })
+				            }
+				            onMoveNextRequest={() =>
+				              this.setState({
+				                photoIndex: (photoIndex + 1) % imageStrings.length,
+				              })
+				            }
+				          />
+				        )}
 
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0218.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
+				        <div className="mt-5">
+				        	<span className="amor_ruel_gallery">Ruel&nbsp; <span className="and">&</span> &nbsp;Amor</span>
 
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0490.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
+				        	<hr className="saying_hr" />
 
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0609.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
+				        	<span>
+				        		<p className="gallery_saying">"Submit to one another out of Reverence for Christ."</p>
+				        		<p style={{fontSize:'10pt'}}>-Ephesians 5:21</p>
+				        	</span>
 
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0597.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0758.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0808.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0843.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-sm-4">
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0279.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0345.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0208.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0511.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0481.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0737.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0746.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0646.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0565.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row justify-content-sm-center gallery-title">
-							<div className="col" align="center">
-								<h1 className="amor_ruel_2 mt-5">Ruel &nbsp; <span className="and">&</span> &nbsp; Amor</h1>
-								<hr style={{backgroundColor:'#fff',width:'70%'}}/>
-								<span className="gallery-date">
-									<span>05<i className="fas fa-circle date-circle"></i>04<i className="fas fa-circle date-circle"></i>19</span>
-								</span>
-								<hr style={{backgroundColor:'#fff',width:'70%'}}/>
-								<span className="verse">
-									"Submit to one another out of reverence for Christ."
-									<br />
-									<span style={{fontSize:'12pt',fontFamily:'Calibri',color:'#fff'}}>-Ephesians 5:21</span>
-								</span>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-sm-4">
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0396.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0265.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0359.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0443.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0513.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0479.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0764.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0882.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0857.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
+				        	<hr className="saying_hr" />
+				        </div>
 					</div>
 				</div>
 			</div>
+		);		
+	}
 
-			<br />
-			<br />
 
-			<div className="mt-5 photo-gallery-mobile">
-				<div className="row">
-					<div className="col-sm-4">
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0292.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0279.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0218.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0345.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0396.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0359.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0513.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0511.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0481.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0737.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0609.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0882.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0808.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0646.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-sm-4">
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0154.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0265.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0208.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0443.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0490.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0479.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-sm-4">
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0597.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0746.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0758.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0764.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0843.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0565.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col mb-4">
-								<div className="img-con">
-									<img src={require("../images/gallery/DSC_0857.jpg")} className="fit-image" alt="slide-item" />
-								</div>
-							</div>
-						</div>
-
-						<div className="row justify-content-sm-center gallery-title">
-							<div className="col mb-4" align="center">
-								<h1 className="amor_ruel_2 mt-5">Ruel &nbsp; <span className="and">&</span> &nbsp; Amor</h1>
-								<hr style={{backgroundColor:'#fff',width:'70%'}}/>
-								<span className="gallery-date">
-									<span>05<i className="fas fa-circle date-circle"></i>04<i className="fas fa-circle date-circle"></i>19</span>
-								</span>
-								<hr style={{backgroundColor:'#fff',width:'70%'}}/>
-								<span className="verse">
-									"Submit to one another out of reverence for Christ."
-									<br />
-									<span style={{fontSize:'12pt',fontFamily:'Calibri',color:'#fff'}}>-Ephesians 5:21</span>
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	);
 }
 
 export default Gallery;

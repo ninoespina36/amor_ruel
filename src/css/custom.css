@@ -214,30 +214,36 @@ img.boys_attire{
 	font-size: 35pt;
 }
 
-.fit-image{
-	height: 100%;
-	width: 100%;
+.images img{	
+	margin: 7px 7px;
+	width: 30%;
+	transition: transform .5s;
+	box-shadow: 2px 2px 3px #000;
 }
 
-.img-con{
-	overflow: hidden;
-	box-shadow: 2px 3px 3px #000;
+.images img:hover{	
+	transform: scale(1.01);
+	cursor: pointer;
 }
 
-img.fit-image{
-   -moz-transition: all 20s;
-   -webkit-transition: all 20s;
-   transition: all 20s;
+.v-img{
+	width: 13% !important;
 }
 
-img.fit-image:hover{
-   -moz-transform: scale(1.1);
-   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
+.amor_ruel_gallery{
+	font-size: 30pt;
+	font-family: 'Great Vibes', cursive;
 }
 
-.gallery-date{
-	font-size: 20pt;
+.gallery_saying{
+	font-family: 'Courgette', cursive;
+	font-size: 15pt;
+	color: #72ffc9;		
+}
+
+.saying_hr{
+	background-color: #fff;
+	width: 50%;
 }
 
 .fade-appear,
@@ -261,19 +267,6 @@ img.fit-image:hover{
 	transition: opacity 150ms linear;
 }
 
-.photo-gallery-mobile{
-	display: none;
-}
-
-.gallery-title{
-	margin-top: 100px;
-}
-
-.verse{
-	font-size: 15pt;
-	font-family: 'Courgette', cursive;
-	color: #72ffc9;
-}
 
 @media only screen and (max-width: 1200px) {
 
@@ -408,16 +401,18 @@ img.fit-image:hover{
 		font-family: 'Great Vibes', cursive;
 	}
 
-	.photo-gallery-mobile{
-		display: unset;
+	.images img{	
+		width: 30%;
+		margin: 3px 3px;
+		box-shadow: 2px 2px 2px #000;
 	}
 
-	.photo-gallery-web{
-		display: none;
+	.v-img{
+		width: 13.5% !important;
 	}
 
-	.gallery-title{
-		margin-top: 0;
+	.saying_hr{
+		width: 90%;
 	}
 
 }

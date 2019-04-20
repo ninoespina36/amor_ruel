@@ -16,6 +16,9 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 //Custom CSS
 import './css/custom.css';
 
+//Lightbox CSS
+import 'react-image-lightbox/style.css';
+
 //No match Component
 const NoMatch = () =>(
 	<div className="container-fluid mb-5">

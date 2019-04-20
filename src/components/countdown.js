@@ -70,7 +70,6 @@ class Countdown extends Component{
 					<img src={require("../images/box.png")} alt="box" className="timer-box" />
 					<span className="countdown-timer">{this.state.seconds}</span>
 				</div>
-				{this.clock()}
 			</div>
 		);
 	}
