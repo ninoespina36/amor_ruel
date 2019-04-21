@@ -12,12 +12,12 @@ class Gallery extends Component{
 			images:[
 				{
 					id: 0,
-					src: require("../images/gallery/DSC_0292.jpg"),
+					src: require("../images/gallery/DSC_0154.jpg"),
+					className: 'v-img'
 				},
 				{
 					id: 1,
-					src: require("../images/gallery/DSC_0154.jpg"),
-					className: 'v-img'
+					src: require("../images/gallery/DSC_0292.jpg"),
 				},
 				{
 					id: 2,
@@ -60,12 +60,12 @@ class Gallery extends Component{
 				},
 				{
 					id: 11,
-					src: require("../images/gallery/DSC_0433.jpg"),
+					src: require("../images/gallery/DSC_0490.jpg"),
+					className: 'v-img'
 				},
 				{
 					id: 12,
-					src: require("../images/gallery/DSC_0490.jpg"),
-					className: 'v-img'
+					src: require("../images/gallery/DSC_0433.jpg"),
 				},
 				{
 					id: 13,
@@ -87,12 +87,12 @@ class Gallery extends Component{
 				},
 				{
 					id: 17,
-					src: require("../images/gallery/DSC_0609.jpg"),
+					src: require("../images/gallery/DSC_0746.jpg"),
+					className: 'v-img'
 				},
 				{
 					id: 18,
-					src: require("../images/gallery/DSC_0746.jpg"),
-					className: 'v-img'
+					src: require("../images/gallery/DSC_0609.jpg"),
 				},
 				{
 					id: 19,
@@ -114,12 +114,12 @@ class Gallery extends Component{
 				},
 				{
 					id: 23,
-					src: require("../images/gallery/DSC_0808.jpg"),
+					src: require("../images/gallery/DSC_0843.jpg"),
+					className: 'v-img'
 				},
 				{
 					id: 24,
-					src: require("../images/gallery/DSC_0843.jpg"),
-					className: 'v-img'
+					src: require("../images/gallery/DSC_0808.jpg"),
 				},
 				{
 					id: 25,
