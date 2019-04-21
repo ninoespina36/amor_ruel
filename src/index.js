@@ -28,9 +28,25 @@ const NoMatch = () =>(
 )
 
 class App extends Component{
+	consoleMsg = () =>{
+		return(
+			console.log(`
+
+			%cDesigned and Developed by:
+			          %cNiño Christopher Tatad Espina
+
+		  %c-All Rights Reserved 2019
+
+			`, `font-size: small;font-family: Arial;font-weight:bold`,`font-family: 'Courgette', cursive;font-size: large;font-weight:bold;color:green`,``)		
+		);
+	}
+
 	render(){
 	    return (
 	      <div>
+
+	      	{this.consoleMsg()}
+
 	      	<BrowserRouter>
 
 		      	<Header />
