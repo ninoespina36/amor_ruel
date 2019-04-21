@@ -12,7 +12,11 @@ class Header extends Component{
 		}
 	}
 
+
+
 	render(){
+		const { deadline } = this.state;
+
 		return (
 			<div>
 				<div className="cover">
@@ -34,11 +38,11 @@ class Header extends Component{
 							</span>
 									
 							{
-								Date.parse(this.state.deadline) > Date.parse(new Date()) ?
+								Date.parse(deadline) > Date.parse(new Date()) ?
 
-								<Countown deadline={this.state.deadline} /> :
+								<Countown deadline={deadline} /> :
 
-								<h3 className="just_married">Just Married!</h3>
+								<h3 className="post_msg"><span className="hashtag">#</span>miAmorNiRuel <span className="hashtag">#</span>tRUELyoursMiAMOR</h3>
 							}
 										
 						</span>

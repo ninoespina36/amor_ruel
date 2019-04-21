@@ -13,10 +13,6 @@ class Countdown extends Component{
 		}
 	}
 
-	clock = () =>{
-		console.log({...this.state})
-	}
-
 	componentWillMount(){
 		this.getTimeUntil(this.props.deadline);
 	}

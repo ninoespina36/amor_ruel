@@ -36,9 +36,14 @@ body{
 	left: 30px;
 }
 
-.just_married{
-	font-size: 30pt;
-	font-family: 'Great Vibes', cursive;
+.post_msg{
+	font-size: 15pt;
+	font-family: 'Courgette', cursive;
+}
+
+.hashtag{
+	
+	color: #72ffc9;
 }
 
 .title{
@@ -395,11 +400,11 @@ img.boys_attire{
 		left: 7px;
 	}
 
-	.just_married{
-		font-size: 15pt;
+	.post_msg{
 		margin: 15px 0 -15px 0;
-		font-family: 'Great Vibes', cursive;
+		font-size: 8pt;
 	}
+
 
 	.images img{	
 		width: 30%;
