@@ -42,28 +42,44 @@ class Countdown extends Component{
 		return(
 			<div className="row justify-content-center">
 				<div className="col-2">
-					<img src={require("../images/box.png")} alt="box" className="timer-box" />
+					<img 
+						src={require("../images/box.png")} 
+						alt="box" 
+						className="timer-box" />
+
 					<span className="countdown-timer">{this.state.days}</span>
 				</div>
 				<div align="center">
 					<span className="dots offset-5">:</span>
 				</div>
 				<div className="col-2">
-					<img src={require("../images/box.png")} alt="box" className="timer-box" />
+					<img 
+						src={require("../images/box.png")} 
+						alt="box" 
+						className="timer-box" />
+
 					<span className="countdown-timer">{this.state.hours}</span>
 				</div>
 				<div align="center">
 					<span className="dots offset-5">:</span>
 				</div>
 				<div className="col-2">
-					<img src={require("../images/box.png")} alt="box" className="timer-box" />
+					<img 
+						src={require("../images/box.png")} 
+						alt="box" 
+						className="timer-box" />
+
 					<span className="countdown-timer">{this.state.minutes}</span>
 				</div>
 				<div align="center">
 					<span className="dots offset-5">:</span>
 				</div>
 				<div className="col-2">
-					<img src={require("../images/box.png")} alt="box" className="timer-box" />
+					<img 
+						src={require("../images/box.png")} 
+						alt="box" 
+						className="timer-box" />
+						
 					<span className="countdown-timer">{this.state.seconds}</span>
 				</div>
 			</div>

@@ -8,7 +8,7 @@ class Header extends Component{
 		super(props);
 
 		this.state = {
-			deadline: 'May 04,2019'
+			deadline: '04 May 2019 13:00:00'
 		}
 	}
 
